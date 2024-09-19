@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
+.appointment_link {
+  display: block;
+  padding: 12px 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #F2726F;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+
+.header {
+  padding-top: 26px;
+  padding-bottom: 262px;
+  background-image: url(../img/header_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+.header__title {
+  max-width: 583px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+.header__link {
+  width: 210px;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
+  transition: .5s;
+}
+.header__link:hover {
+  transform: scale(1.03);
+}
+
+
+
+.WhoWeAre {
+  width: 1020px;
+  position: absolute;
+  top: 130%; left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 100px;
+  padding-bottom: 354px;
+  padding-left: 87px;
+  padding-right: 87px;
+  background: #5D62B5;
+  border-radius: 40px;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
+}
+.whoWeAre__topCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.WhoWeAre__chevronPic {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.WhoWeAre__topText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+}
+.WhoWeAre__title {
+  width: 583px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+.WhoWeAre__description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  color: #F5F5F5;
+}
+.WhoWeAre__bgPic {
+  position: absolute;
+  width: 653px;
+  top: 40%; left: -2%;
+}
+.WhoWeAre__pexelPic {
+  position: absolute;
+  width: 846px;
+  top: 60%; left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
+  border-radius: 40px;
+}
+.WhoWeAre__manyRoundsPic {
+  width: 201px;
+  height: 317px;
+  position: absolute;
+  top: -15%; right: -8%;
+}
+
+
+.ourPromise {
+  padding-top: 850px;
+  padding-bottom: 122px;
+  background: #F5F5F5;
+}
+.ourPromise__topCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.ourPromise__chevronPic {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.ourPromise__topText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #346D71;
+}
+.ourPromise__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #346D71;
+  margin-bottom: 68px;
+}
+.ourPromise__content {
+  display: flex;
+  justify-content: space-between;
+}
+.ourPromise__item {
+  display: flex;
+  margin-right: 27px;
+}
+.ourPromise__item:last-child {
+  margin-right: 0;
+}
+.ourPromise__itempPic {
+  widows: 60px;
+  height: 60px;
+  margin-right: 23px;
+}
+.ourPromise__item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  color: #F2726F;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.ourPromise__item-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+  text-align: left;
+}
+
+.jumpingDog {
+  background-image: url(../img/BG_Image_dog_tennisBall.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+}
+.jumpingDog__left {
+  width: 60%;
+}
+.jumpingDog__title {
+  max-width: 411px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 45px;
+}
+.jumpingDog_link {
+  width: 210px;
+  transition: .5s;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
+}
+.jumpingDog_link:hover {
+  transform: scale(1.03);
+}
+
+
